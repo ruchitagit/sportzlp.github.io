@@ -1,0 +1,253 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #001f79;
+}
+.navbar-nav{
+    font-weight:500;
+}
+.nav-link{
+    font-size: 15px;
+}
+.carousel-rectangle{
+    background-color: #ffffffcc;
+    width: 700px;
+    height: 180px;
+    border-radius: 50px 50px 0 0;
+    left: 10%;
+    bottom: 0;
+    
+}
+.rectangle-line1{
+    color:#001f79;
+    font-weight: 500;
+}
+.rectangle-line2{
+    color: #909090;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.recent-rect{
+    font-size: 14px;
+    border-right: 2px;
+    border-left: 0;
+    border-style: solid;
+    border-image: linear-gradient(to top,#00000000,#fff,#00000000) 0 70%;
+}
+.read-more-right{
+    background-color: #f1f1f4;;
+}
+
+.video-caption{
+    background-color:#e82e85;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    padding:12px;
+}
+.video{
+    font-size: 13px;
+    font-weight: 600;
+    color: #001f79;
+}
+.date-sec{
+    color: #8a8a8a;
+    font-size: 15px;
+}
+.ipsum-sec{
+    font-size: 19px;
+    font-weight: 600;
+    color: #051767;
+}
+.play-absolute{
+    left: 30px;
+    bottom: 73px;
+}
+.play-read-more, .gallery-read-more{
+    top:20px;
+    left:20px;
+}
+.rn-video{
+    font-weight: 550;
+    font-size: 13px;
+}
+.rn-date{
+    font-size: 11px;
+    color: #f1f1f4;
+}
+.rn-para{
+    font-weight: 500;
+}
+.footer-pre{
+    background-color:#f1f1f4;
+    padding: 11px;
+
+}
+.sponsers{
+    font-size: 18px;
+    color: #051767;
+    font-weight: 600;
+    padding-top: 32px;
+}
+.footer-row{
+    background-color:#120e40;
+    padding: 12px;
+}
+.footer-para{
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 35px;
+}
+.footer-mix{
+    display: flex;
+    align-items: center;
+}
+
+.powerby-logo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+   
+
+.brand{
+    background-color:#f1f1f4;
+
+}
+.footer-pre .row .col-3{
+    padding: 32px 0;
+}
+
+.half-circle{
+    height: 36px;
+    width: 72px;
+    /* top: 50%; */
+    bottom: -20px;
+    left: 50%;
+    position: absolute;
+    border-radius: 150px 150px 0 0;
+    background-color: #120e40;
+    transform: translateY(-50%) translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.angle-up{
+    color:#fe3043f7;
+    font-size: 35px;
+    
+}
+.pc-d-none{
+    display:none;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .pc-d-none{
+        display:block;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .d-in-block{
+      display:inline-block;
+    }
+    .recent-rect{
+        border-right: 0px;
+    }
+    
+    .play-absolute {
+        bottom: 101px;
+    }
+    .pc-d-none{
+        display:block;
+    }
+    .m-d-none{
+        display:none;
+    }
+    .powerby-logo{
+     justify-content: center;
+    }
+    .footer-mix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .nav-link {
+        text-align: center;
+        font-size: 22px;
+      font-weight: 600;
+     }
+     .carousel-rectangle{
+        left: 5%;
+    }
+    .navbar-nav{
+        background-color: #001f79;
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .active>.nav-link  {
+        color: white;
+    }
+    .video-caption{
+        padding: 2px;
+    }
+   
+
+
+    }   
+
+    
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .read-more{
+        text-align: left;
+    }
+    .carousel-rectangle{
+        display: none;
+    }
+    .video-caption{
+        padding: 0px;
+    }
+    .rn-date{
+        margin-bottom: 5px;
+    }
+    .read-more1, .read-more2 {
+        margin-top: 15px;
+    }
+    .ipsum-sec{
+        font-size:13px;
+    }
+    .date-sec{
+        margin-bottom: 5px;
+    }
+    .v-center{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
